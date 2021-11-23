@@ -1,0 +1,95 @@
+<DOCTYPE html>
+<html>
+<div id="login" style="display: block;">
+	<head>
+		<title> Teletraan 1 Login </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="page-content">
+			<div id ="instructions">
+				<div id="login_form">
+					<h1>Teletraan 1 Login</h1>
+					<input type="text" placeholder="Email" id="login_email">
+					<br>
+					<input type="text" placeholder="Password" id="login_password">
+					<br>
+				</div>
+				<div id="buttons" class="login-buttons">
+					<button id="login-button">LOGIN</button>
+					<button id="switch-to-register-button">SWITCH TO REGISTER</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</div>
+<div id="register" style="display: none;">
+	<head>
+		<title> Teletraan 1 Register </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="page-content">
+			<div id ="instructions">
+				<div id="register_form">
+					<h1>Teletraan 1 Register</h1>
+					<input type="text" placeholder="First Name" id="first-name">
+					<br>
+					<input type="text" placeholder="Last Name" id="last-name">
+					<br>
+					<input type="text" placeholder="Email" id="email">
+					<br>
+					<input type="text" placeholder="Password" id="password">
+					<br>
+				</div>
+				<div id="buttons" class="Register-buttons">
+					<button id="register-button">REGISTER</button>
+					<button id="switch-to-login-button">SWITCH TO LOGIN</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</div>
+<div id="transformers" style="display: none;">	
+	<head>
+		<title> Teletraan 1 </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div id="buttons" class="logout-button" align="right">
+				<button id="logout-button"">LOGOUT</button>
+		</div>
+		<div id="page-content">
+			<div id ="instructions">
+				<h1>Teletraan 1</h1>
+				<h2>Who are you favorite Transformers and Their Statistics?</h2>
+				<p> Click on Teletraan 1 to add them to my list</p>
+				<input type="text" placeholder="Transformer Name?" id="new-transformer-name">
+				<br>
+				<input type="text" placeholder="Transformer Affiliation?" id="new-transformer-affiliation">
+				<br>
+				<input type="text" placeholder="Transformer Alt Mode?" id="new-transformer-altmode">
+				<br>
+				<input type="text" placeholder="Transformer Rank?" id="new-transformer-rank">
+				<br>
+				<input type="text" placeholder="Transformer Signature Weapon?" id="new-transformer-signatureweapon">
+			</div>
+			<div id="teletraan-1" class="teletraan-1">
+		    		<div id="buttons" class="buttons">
+						<button id="add-button" style="display: inline;">TELETRAAN 1 AWAITS INPUT</button>
+						<button id="save-button" style="display: none;">TELETRAAN 1 AWAITS UPDATED INPUT</button>
+		    			<button id="reset-button" style="display: block;">RESET TELETRAAN</button>
+					</div>
+			</div>
+			<div id="namelist" class="namelist">
+				<p> Transformers Statistics Table</p>
+			    	<ol id="log">
+				</ol>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</div>
+</html>
+

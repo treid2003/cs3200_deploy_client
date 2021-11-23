@@ -1,0 +1,149 @@
+body {
+  	background-color: #c27e00;
+}
+
+#page-content {
+  	width: auto; 
+  	margin: 0 auto; 
+  	margin-top: 50px;
+  	text-align: center; 
+  	font-family: 'Roboto';
+  	color: lightblue;
+}
+
+#instructions {
+  	background-color: #0000ad;
+  	border: 10px solid #915e00;
+}
+
+#instructions input {
+	background-color: lightblue;
+	border: 5px solid #010187;
+}
+
+#instructions ::placeholder {
+	color: #0000ad;
+}
+
+div.teletraan-1 {
+  	background-color: #915e00;
+  	border: 10px solid #915e00;
+  	width: 400px;
+  	height: 205px;
+  	margin: 0 auto;
+  	margin-bottom: 15px;
+  	margin-top: 15px;
+}
+    
+div.buttons {
+  	background-color: #0000ad;
+  	border: 15px solid #010187;
+  	width: 350px;
+ 	height: 175px;
+  	margin: 0 auto;
+  	margin-bottom: 25px;
+}
+
+div.namelist {
+  	background-color: #0000ad;
+  	border: 10px solid #915e00;
+  	margin: 0 auto;
+	margin-top: 10px;
+  	font-size: 20px;
+}
+
+#buttons button {
+  background-color: lightblue;
+  border: 5px solid #010187;
+  color: #0000ad;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button#register-button{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+button#login-button{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+button#logout-button{
+  background-color: lightblue;
+  border: 5px solid #010187;
+  color: #0000ad;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+button#add-button {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+button#save-button {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+button#reset-button {
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+#namelist p {
+	font-size: 30px;
+}
+
+#namelist button {
+	background-color: #0000ad;
+	border: 5px solid #010187;
+	color: lightblue;
+	padding: 10px;
+	margin: 10px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+
+input {
+  	margin: 15px;
+  	padding: 15px;
+  	width: 300px;
+  	font-size: 16px;
+}
+
+ol#log {
+	list-style-type: none;
+  	list-style-position: inside;
+	text-align: center;
+	padding: 0;
+}
+#log li{
+	display: block;
+	margin: 15px;
+	padding: 15px;
+	font-size: 20px;
+	border: 5px solid #010187;
+	background-color: lightblue;
+	color: #0000ad;
+
+}
